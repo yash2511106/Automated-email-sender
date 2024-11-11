@@ -8,8 +8,8 @@ obj.starttls()
 
 obj.login('sender_email', 'gmail_app_password') # you can generate app password from google account settings
 
-subject = "Test Mail"
-body = "Hey, my name is yash i love python "
+subject = input("Enter Your Email's Subject Here :- ")
+body = input("Enter Your Email's Body Here :- ")
 
 
 message = f"Subject: {subject}\n\n{body}"
